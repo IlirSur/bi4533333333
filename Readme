@@ -1,0 +1,22 @@
+#List of the main tools used in this project and what each one did
+
+| Tool           | Purpose |
+|----------------|---------|
+| **ART**        | Simulated paired-end Illumina reads at controlled coverage levels |
+| **FastQC**     | Checked the quality of each read dataset |
+| **MultiQC**    | Combined all FastQC reports into one summary |
+| **SPAdes**     | Assembled the genomes from read data |
+| **QUAST**      | Evaluated the quality of each genome assembly |
+| **CheckM**     | Estimated genome completeness and contamination (no pplacer used) |
+| **Bandage**    | Visualised the assembly graphs for structural clarity |
+| **FastANI**    | Compared assembled genomes to references using Average Nucleotide Identity |
+| **Bowtie2**    | Aligned simulated reads to their matching reference genomes |
+| **SAMtools**   | Converted, sorted, and indexed alignment files |
+| **Qualimap**   | Summarised mapping coverage and insert size stats |
+| **Pathogenwatch** | Used online for species identification from raw reads and assemblies |
+
+#Reproducing the Workflow
+
+#The full list of commands and parameters used in the project can be found in [workflow.md](workflow.md). All tools were>
+
+#You can run each step individually or adapt the workflow to your own data. For reproducibility, Conda installation inst>
